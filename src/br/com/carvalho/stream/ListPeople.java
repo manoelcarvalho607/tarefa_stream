@@ -107,7 +107,7 @@ public class ListPeople {
 				
 				listaDeNomes.stream()
 							
-								.forEach(l -> System.out.println("nomes Masculinos: " + l));
+								.forEach(l -> System.out.println("nome Masculino: " + l));
 				
 				
 				
@@ -132,7 +132,7 @@ public class ListPeople {
 				List<String> listaDeNomes = Arrays.asList(nomes);
 				
 				listaDeNomes.stream()
-								.forEach(l -> System.out.println("nomes femininos: " + l));
+								.forEach(l -> System.out.println("nome feminino: " + l));
 				
 				
 				
