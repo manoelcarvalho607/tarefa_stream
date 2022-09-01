@@ -1,15 +1,21 @@
 package br.com.carvalho.stream;
 
+/**
+ * 
+ * @author manoel.carvalho
+ *
+ */
+
 
 
 public class AppList {
 
 	public static void main(String[] args) {
 		
-		ListPeople list = new ListPeople();
-		list.generoSexo();
-		
-		
+		ListNames list = new ListNames();
+		list.NomePessoas();
+
+			
 	}
 
 }
